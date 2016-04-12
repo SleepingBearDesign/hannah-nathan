@@ -81,6 +81,24 @@ section p {
 x. Themes
 
 *********************************************************************************************/
+.blue {
+	background-color: #43ABBF;
+	border-bottom: 1px solid #0488A1;
+	border-top: 1px solid #0488A1;
+}
+
+.blue h3 {
+	color: #036577;
+}
+
+.blue h4 {
+	color: #0488A1;
+}
+
+.blue p {
+	color: #036577;
+}
+
 .coral {
 	background-color: #ff9796;
 	border-bottom: 1px solid #9e595a;
@@ -181,7 +199,7 @@ x. Home
 *********************************************************************************************/
 #home {
 	width: auto; height: 600px;
-	background: url(../img/bg.jpg) bottom center no-repeat #ff9796;
+	background: url(../img/bg.jpg) bottom center no-repeat #43ABBF;
 }
 
 #home .row {
@@ -232,6 +250,9 @@ x. Wedding Party
 #wedding-party .bridesmaid, #wedding-party .groomsman, #wedding-party .usher {
 	padding: 20px 0 5px 0;
 	float: left;
+}
+#wedding-party .bridesmaid p, #wedding-party .groomsman p {
+    text-align: center;
 }
 
 #wedding-party .content {
