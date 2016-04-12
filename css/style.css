@@ -158,40 +158,6 @@ x. Themes
 .gold h3, .gold h4, .gold p {
 	color: #998565;
 }
-
-/*********************************************************************************************
-
-x. Navigation
-
-*********************************************************************************************/
-nav {
-	margin: -49px 0 0 0;
-	position: fixed;
-	top: 50%; right: 0;
-	z-index: 999;
-	list-style: none;
-}
-
-nav #next {
-	width: 48px; height: 48px;
-	background: url(../img/nav.png) bottom left;
-	display: block;
-}
-
-nav #next:hover {
-	background: url(../img/nav.png) bottom right;
-}
-
-nav #prev {
-	width: 48px; height: 48px;
-	background: url(../img/nav.png) top left;
-	margin: 0 0 2px 0;
-	display: block;
-}
-
-nav #prev:hover {
-	background: url(../img/nav.png) top right;
-}
 /*********************************************************************************************
 
 x. Home
