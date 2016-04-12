@@ -247,7 +247,7 @@ x. Wedding Events
 x. Wedding Party
 
 *********************************************************************************************/
-#wedding-party .bridesmaid, #wedding-party .groomsman, #wedding-party .usher {
+#wedding-party .bridesmaid, #wedding-party .groomsman {
 	padding: 20px 0 5px 0;
 	float: left;
 }
